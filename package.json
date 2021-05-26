@@ -9,7 +9,7 @@
     "node": "14.17.0"
   },  
   "scripts": {
-    "start": "node index",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
