@@ -1,0 +1,11 @@
+---
+application:
+  name: "requestcatcher"
+  project: "Requester"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-requestcatcher"
+  routes:
+  - application_name: "requestcatcher"
+    paths:
+    - "/*"
