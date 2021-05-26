@@ -1,6 +1,7 @@
 {
   "name": "requestcatcher",
   "version": "1.0.0",
+  "private": true,
   "description": "Request catcher",
   "main": "index.js",
   "type": "module",
