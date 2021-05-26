@@ -3,7 +3,7 @@ application:
   name: "requestcatcher"
   project: "Requester"
   organization: "QoveryCommunity"
-  port: 3002
+  port: 3000
 routers:
 - name: "main-requestcatcher"
   routes:

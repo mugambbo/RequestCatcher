@@ -15,7 +15,7 @@ app.use(express.urlencoded({extended: true}));
 app.use(cors());
 app.use(routes);
 
-const port = process.env.PORT || 3002;
+const port = process.env.PORT || 3000;
 const address = process.env.SERVER_ADDRESS || '127.0.0.1';
 
 
