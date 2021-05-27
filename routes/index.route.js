@@ -1,7 +1,7 @@
 import express from "express";
 
 const router = express.Router();
-router.get("/", (req, res, next) => {
+router.all("/", (req, res, next) => {
     const data = {
         "status": "success",
         "body": req.body,
